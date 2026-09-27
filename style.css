@@ -192,7 +192,8 @@ body {
 .portfollio-item {
     font-size: 30px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 700;
+    font-weight: 700; 
+    margin: 0.5em;
 }
 
 .contact-list {
@@ -220,4 +221,12 @@ body {
 
 .contact-list a:hover {
   color: #0077ff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 80px;
 }
